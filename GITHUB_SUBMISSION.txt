@@ -1,0 +1,2 @@
+GitHub Username: REPLACE_WITH_YOUR_USERNAME
+Repository URL: https://github.com/USERNAME/comp1050-lab3-deck
