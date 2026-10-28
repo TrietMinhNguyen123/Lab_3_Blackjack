@@ -48,7 +48,11 @@ public class Dealer {
         if(deck.getSize() < 0 || getHandTotal() > 17) return;
 
         while(getHandTotal() < 17){
+            System.out.println("Dealer hit...");
             receiveCard(deck.dealCard());
+            System.out.println("Dealer draws: " + getHand().get(getHand().size() - 1 ));
+            System.out.println("Dealer's total:" + getHandTotal());
+
         }
 
         }
